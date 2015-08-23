@@ -11,10 +11,9 @@ i guess if you really need it you could implement yourself.
 
 ## Installation:
 `gem install mdtopdf`
-(md2pdf is already being used for a library...)
 
 ## Usage:
-`md2pdf <file>`
+`mdtopdf <file>`
 
 this will generate `file.pdf` in the same directory.
 
