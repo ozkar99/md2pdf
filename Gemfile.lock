@@ -8,5 +8,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  pdfkit
-  redcarpet
+  pdfkit (~> 0.8.1)
+  redcarpet (~> 3.3.2)

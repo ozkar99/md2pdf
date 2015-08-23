@@ -6,7 +6,11 @@ Gem::Specification.new do |s|
   s.description = "Simple cli utility for converting markdown into pdf."
   s.authors     = ["Oscar Moreno Garza"]
   s.email       = 'ozkar@ozkar.org'
-  s.files       = ["lib/mdtopdf.rb", "bin/md2pdf"]
+  s.files       = ["lib/mdtopdf.rb"]
   s.homepage    = 'http://github.com/ozkar99/mdtopdf'
   s.license     = 'BSD 2-Clause'
+  s.executables << 'md2pdf'
+
+  s.add_runtime_dependency 'pdfkit', "~> 0.8", ">=0.8.1"
+  s.add_runtime_dependency 'redcarpet', "~> 3.3", ">=3.3.2"
 end
