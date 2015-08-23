@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+# encoding: utf-8
+
+require 'mdtopdf'
+
+if ARGV.count < 1
+  p "Usage: #{$0} <filename>"
+  exit 1
+end
+
+file_in_path = ARGV.pop
+
+unless File.exist? file_in_path
+  p "Given file `#{file_in_path}` doesn't exist"
+  exit 1
+end
+
+MDToPDF.Convert file_in_path

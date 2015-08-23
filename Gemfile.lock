@@ -1,0 +1,12 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    pdfkit (0.8.1)
+    redcarpet (3.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pdfkit
+  redcarpet
