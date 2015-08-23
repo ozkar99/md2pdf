@@ -10,7 +10,8 @@ I might extend it *sometime* so you can provide and external `CSS`,
 i guess if you really need it you could implement yourself.
 
 ## Installation:
-`gem install mdtopdf` (md2pdf is already being used for a library...)
+`gem install mdtopdf`
+(md2pdf is already being used for a library...)
 
 ## Usage:
 `md2pdf <file>`
