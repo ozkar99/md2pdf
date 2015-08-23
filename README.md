@@ -1,4 +1,4 @@
-# md2pdf
+# mdtopdf
 
 **requires wkhtmltopdf**
 
